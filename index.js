@@ -22,6 +22,8 @@ const getWalletBalance = async() => {
 }
 
 const main = async() => {
+const airDropSol = async () => {
+}
     await getWalletBalance()
 }
 
