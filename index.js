@@ -36,6 +36,7 @@ const airDropSol = async () => {
         console.log(err)
     }
 }
+    await airDropSol()
     await getWalletBalance()
 }
 
