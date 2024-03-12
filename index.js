@@ -20,5 +20,10 @@ const getWalletBalance = async() => {
         console.error(err)
     }
 }
+
+const main = async() => {
+    await getWalletBalance()
+}
+
 //---------------Funcion Exec----------------------
 main()
