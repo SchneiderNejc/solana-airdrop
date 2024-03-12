@@ -3,7 +3,7 @@ const {
     PublicKey,
     clusterApiUrl,
     Keypair,
-    LAMORTS_PER_SOL
+    LAMPORTS_PER_SOL
 } = require("@solana/web3.js")
 
 const wallet = new Keypair()
