@@ -8,20 +8,18 @@ const {
 
 const wallet = new Keypair()
 
-const publicKey = new PublicKey(wallet._keypair.publicKey);
+const publicKey = new PublicKey(wallet._keypair.publicKey)
 const secretKey = wallet._keypair.secretKey
 
-const getWalletBalance = async() => {
+const getWalletBalance = async () => {
     try {
         const connection = new Connection(clusterApiUrl('devnet'), 'confirmed')
         const walletBalance = await connection.getBalance(publicKey)
         console.log(`Wallet balance is ${walletBalance}`)
-    } catch(err) {
+    } catch (err) {
         console.error(err)
     }
 }
-
-const main = async() => {
 const airDropSol = async () => {
     try {
         const connection = new Connection(clusterApiUrl('devnet'), 'confirmed')
@@ -36,6 +34,7 @@ const airDropSol = async () => {
         console.log(err)
     }
 }
+const main = async () => {
     await airDropSol()
     await getWalletBalance()
 }
