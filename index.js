@@ -23,6 +23,14 @@ const getWalletBalance = async() => {
 
 const main = async() => {
 const airDropSol = async () => {
+        const connection = new Connection(clusterApiUrl('devnet'), 'confirmed')
+        const fromAirDropSignature = await connection.requestAirdrop(publicKey, 2 * LAMPORTS_PER_SOL)
+        const latestBlockHash = await connection.getLatestBlockhash();
+        await connection.confirmTransaction({
+            blockhash: latestBlockHash.blockhash,
+            lastValidBlockHeight: latestBlockHash.lastValidBlockHeight,
+            signature: fromAirDropSignature,
+        });
 }
     await getWalletBalance()
 }
