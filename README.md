@@ -7,3 +7,5 @@ node index.js
 -run index.js
 https://github.com/LearnWithArjun/solana-env-setup/blob/main/windows_setup.md
 -install ubuntu CLI & solana
+sudo apt-get install bzip2
+-run above command before trying solana-test-validator
