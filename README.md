@@ -26,3 +26,7 @@ sudo apt-get install bzip2
 anchor init myepicproject --javascript
 
 -start a boilerplate Solana project
+
+solana-keygen new
+
+-generate a local Solana wallet to work with
