@@ -30,3 +30,7 @@ anchor init myepicproject --javascript
 solana-keygen new
 
 -generate a local Solana wallet to work with
+
+solana address
+
+-return the generated public key
