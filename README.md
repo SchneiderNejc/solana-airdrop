@@ -34,3 +34,7 @@ solana-keygen new
 solana address
 
 -return the generated public key
+
+anchor test
+
+-Compile and deploy the program to our local Solana network w/ our wallet. Call functions on our deployed program
