@@ -75,3 +75,7 @@ spl-token burn 6Fe3KkLgpechKHyKDPw7hyPtsj12XimezvL3hq9yGQye 100 --url devnet
 spl-token transfer 6hRhjZEQi3jUCKp43yFsk5rNsM8bhJ6zwGpHV6KMaXrg 50 5sFrdxWHhht7TPdm95uLcEj3RuHimiy31Ziv9uUCG42G --url devnet
 
 -transfer tokens to recipient
+
+anchor build
+
+-build project
