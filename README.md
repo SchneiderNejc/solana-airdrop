@@ -38,3 +38,12 @@ solana address
 anchor test
 
 -Compile and deploy the program to our local Solana network w/ our wallet. Call functions on our deployed program
+
+
+**Solana library**
+
+To be used via Ubuntu CLI (unsupported in Windows)
+
+solana airdrop 2 H5tHsk6wemnYoPxRAQF7kZo23qy5WkN8maVMZGjPZeWb --url devnet
+
+-airdrop 2 SOL
