@@ -67,3 +67,7 @@ spl-token supply 6hRhjZEQi3jUCKp43yFsk5rNsM8bhJ6zwGpHV6KMaXrg --url devnet
 spl-token authorize 6hRhjZEQi3jUCKp43yFsk5rNsM8bhJ6zwGpHV6KMaXrg mint --disable --url devnet
 
 -revoke token minting authority (can't be reverted!)
+
+spl-token burn 6Fe3KkLgpechKHyKDPw7hyPtsj12XimezvL3hq9yGQye 100 --url devnet
+
+-burn 100 tokens *use Token Account address, not Token address
