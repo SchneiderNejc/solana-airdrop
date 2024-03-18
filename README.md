@@ -47,3 +47,7 @@ To be used via Ubuntu CLI (unsupported in Windows)
 solana airdrop 2 H5tHsk6wemnYoPxRAQF7kZo23qy5WkN8maVMZGjPZeWb --url devnet
 
 -airdrop 2 SOL
+
+spl-doken create-token --url devnet
+
+-create token instance. Returns token address and decimals
