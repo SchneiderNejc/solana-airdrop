@@ -63,3 +63,7 @@ spl-token mint 6hRhjZEQi3jUCKp43yFsk5rNsM8bhJ6zwGpHV6KMaXrg 1000 --url devnet
 spl-token supply 6hRhjZEQi3jUCKp43yFsk5rNsM8bhJ6zwGpHV6KMaXrg --url devnet
 
 -get token supply
+
+spl-token authorize 6hRhjZEQi3jUCKp43yFsk5rNsM8bhJ6zwGpHV6KMaXrg mint --disable --url devnet
+
+-revoke token minting authority (can't be reverted!)
