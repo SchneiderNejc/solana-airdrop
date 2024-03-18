@@ -55,3 +55,7 @@ spl-doken create-token --url devnet
 spl-token balance 6hRhjZEQi3jUCKp43yFsk5rNsM8bhJ6zwGpHV6KMaXrg --url devnet
 
 -get token balance
+
+spl-token mint 6hRhjZEQi3jUCKp43yFsk5rNsM8bhJ6zwGpHV6KMaXrg 1000 --url devnet
+
+-mint tokens
