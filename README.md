@@ -51,3 +51,7 @@ solana airdrop 2 H5tHsk6wemnYoPxRAQF7kZo23qy5WkN8maVMZGjPZeWb --url devnet
 spl-doken create-token --url devnet
 
 -create token instance. Returns token address and decimals
+
+spl-token balance 6hRhjZEQi3jUCKp43yFsk5rNsM8bhJ6zwGpHV6KMaXrg --url devnet
+
+-get token balance
